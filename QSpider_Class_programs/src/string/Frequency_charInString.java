@@ -1,6 +1,5 @@
 package string;
 
-import java.util.Iterator;
 public class Frequency_charInString {
 public static void main(String[] args) {
 	//8.WAP to find the frequency of character in a given String 

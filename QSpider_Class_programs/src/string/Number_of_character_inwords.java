@@ -1,6 +1,6 @@
 package string;
 
-public class Number_of_character_words {
+public class Number_of_character_inwords {
 
 	public static void main(String[] args) {
 		String s="today every one answered";

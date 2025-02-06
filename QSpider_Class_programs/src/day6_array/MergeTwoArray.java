@@ -1,4 +1,4 @@
-package practice;
+package day6_array;
 
 public class MergeTwoArray {
 
@@ -10,10 +10,10 @@ public class MergeTwoArray {
 			c[i]=a[i];
 		}
 		for(int j=0;j<b.length;j++) {
-			c[a.length+j]=b[j];
+			c[j+a.length]=b[j];
 		}
 		for(int k=0;k<c.length;k++) {
-			System.out.print(c[k]);
+			System.out.print(c[k]+" ");
 		}
 		
 

@@ -7,7 +7,7 @@ public class NoOfSpacespInString {
 		int spacecount=0;
 		char ch[]=s.toCharArray();
 		for (int i = 0; i < ch.length; i++) {
-			if(i==' ') {
+			if(ch[i]==' ') {
 				spacecount++;
 		}
 	}

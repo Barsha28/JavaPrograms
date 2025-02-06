@@ -4,9 +4,8 @@ public class CountUpp_Lower_string {
 
 	public static void main(String[] args) {
 		String s="I Am TravelleR";
-		String s1="";
 		char []ch=s.toCharArray();int count=0;
-		int count1=0,count2=0;
+		int count1=0;
 		for(int i=0;i<ch.length;i++) {
 			if(ch[i]>='a' && ch[i]<='z' ) {
 				count++;
